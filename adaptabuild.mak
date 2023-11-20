@@ -114,8 +114,10 @@ $(MODULE)_INCPATH += product/$(PRODUCT)/config/$(MCU)
 
 $(MODULE)_CDEFS :=
 $(MODULE)_CDEFS +=
+
 $(MODULE)_CFLAGS :=
 $(MODULE)_CFLAGS +=
+
 # ----------------------------------------------------------------------------
 # Include the adaptabuild library makefile - must be done for each module!
 
